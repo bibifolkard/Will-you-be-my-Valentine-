@@ -8,7 +8,8 @@ const messages = [
     "I will be very sad...",
     "I will be very very very sad...",
     "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Just kidding, say yes please! ❤️",
+    "Say yes pleaseeeeeeee"
 ];
 
 let messageIndex = 0;
@@ -16,7 +17,7 @@ let messageIndex = 0;
 function handleNoClick() {
     const noButton = document.querySelector('.no-button');
     const yesButton = document.querySelector('.yes-button');
-    noButton.textContent = messages[messageIndex];
+    noButton.textContent = I love you soo much;
     messageIndex = (messageIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
